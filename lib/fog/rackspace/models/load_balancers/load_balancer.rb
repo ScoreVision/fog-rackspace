@@ -65,7 +65,11 @@ module Fog
         end
 
         def nodes=(new_nodes=[])
-          nodes.load(new_nodes)
+          # fog-core 2.5.0+ requires hashes for collection.new, not model instances
+          normalized_nodes = new_nodes.map do |node|
+            node.is_a?(Fog::Rackspace::LoadBalancers::Node) ? node.attributes : node
+          end
+          nodes.load(normalized_nodes)
         end
 
         def https_redirect
@@ -108,7 +112,11 @@ module Fog
         end
 
         def virtual_ips=(new_virtual_ips=[])
-          virtual_ips.load(new_virtual_ips)
+          # fog-core 2.5.0+ requires hashes for collection.new, not model instances
+          normalized_ips = new_virtual_ips.map do |vip|
+            vip.is_a?(Fog::Rackspace::LoadBalancers::VirtualIp) ? vip.attributes : vip
+          end
+          virtual_ips.load(normalized_ips)
         end
 
         def enable_content_caching

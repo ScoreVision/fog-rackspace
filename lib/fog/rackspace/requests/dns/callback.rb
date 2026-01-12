@@ -1,6 +1,6 @@
 module Fog
-  module DNS
-    class Rackspace
+  module Rackspace
+    class DNS
       class Real
         def callback(job_id, show_details=true)
           validate_path_fragment :job_id, job_id

@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Get a vnc console for an instance.
         #
@@ -41,5 +41,5 @@ module Fog
         end # def get_vnc_console
       end # class Mock
     end # class OpenStack
-  end # module Compute
+  end # module Rackspace
 end # module Fog

@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Create server
         # @param [String] name name of server

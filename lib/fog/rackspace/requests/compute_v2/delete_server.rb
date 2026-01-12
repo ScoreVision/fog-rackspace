@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Deletes a specified server instance from the system.
         # @param [String] server_id the id of the server to delete

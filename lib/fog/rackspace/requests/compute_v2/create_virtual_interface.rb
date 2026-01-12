@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Creates virtual interface for a server
         # @param [String] server_id The server id to create the virtual interface on

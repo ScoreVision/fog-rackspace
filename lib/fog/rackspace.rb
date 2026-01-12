@@ -92,4 +92,23 @@ module Fog
       end
     end
   end
+
+  # Backward compatibility aliases for Fog 2.4.0
+  # These allow existing code using the old Fog::Service::Rackspace pattern to continue working
+  module CDN
+    Rackspace = Fog::Rackspace::CDN
+  end
+
+  module Compute
+    Rackspace = Fog::Rackspace::Compute
+    RackspaceV2 = Fog::Rackspace::ComputeV2
+  end
+
+  module DNS
+    Rackspace = Fog::Rackspace::DNS
+  end
+
+  module Storage
+    Rackspace = Fog::Rackspace::Storage
+  end
 end

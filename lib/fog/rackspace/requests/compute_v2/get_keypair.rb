@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Retreive single keypair details
         # @param [String] key_name name of the key for which to request the details

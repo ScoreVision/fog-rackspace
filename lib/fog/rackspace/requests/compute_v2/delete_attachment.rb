@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Deletes a specified volume attachment from a specified server instance.
         # @param [String] server_id id of server containing volume to delete

@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # This operation starts a stopped server, and changes its status to ACTIVE.
         # Prior to running this command, the server status must be SHUTTOFF

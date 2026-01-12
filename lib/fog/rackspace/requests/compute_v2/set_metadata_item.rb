@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Sets a single metadatum item by key.
         # @param [String<images, servers>] collection type of metadata

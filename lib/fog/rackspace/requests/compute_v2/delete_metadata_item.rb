@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Deletes a metadata item.
         # @param [String<images, servers>] collection type of metadata

@@ -1,6 +1,6 @@
 module Fog
-  module CDN
-    class Rackspace
+  module Rackspace
+    class CDN
       class Real
         # modify CDN properties for a container
         #

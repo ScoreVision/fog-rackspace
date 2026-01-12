@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Request a new keypair to be created
         # @param [String] key_name: unique name of the keypair to create

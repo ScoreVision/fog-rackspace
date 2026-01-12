@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         def delete_network(id)
           request(:method => 'DELETE', :path => "os-networksv2/#{id}", :expects => 202)

@@ -1,6 +1,6 @@
 module Fog
-  module DNS
-    class Rackspace
+  module Rackspace
+    class DNS
       class Real
         def remove_record(domain_id, record_id)
           validate_path_fragment :domain_id, domain_id

@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class Rackspace
+  module Rackspace
+    class Compute
       class Real
         # List all flavors
         #

@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # This operation stops a running server, and changes the server status to SHUTOFF
         # and changes the clean_shutdown parameter to TRUE.

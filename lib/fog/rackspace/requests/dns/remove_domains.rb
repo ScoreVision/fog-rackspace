@@ -1,6 +1,6 @@
 module Fog
-  module DNS
-    class Rackspace
+  module Rackspace
+    class DNS
       class Real
         def remove_domains(domain_ids, options={})
           path = "domains?" + domain_ids.map { |domain_id| "id=#{domain_id}" }.join('&')

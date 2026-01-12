@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Returns a list of all key pairs associated with an account.
         # @return  [Excon::Response] response :

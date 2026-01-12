@@ -1,6 +1,6 @@
 module Fog
-  module Compute
-    class RackspaceV2
+  module Rackspace
+    class ComputeV2
       class Real
         # Updates metadata items for a specified server or image.
         # @param [String<images, servers>] collection type of metadata
